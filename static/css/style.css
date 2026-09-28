@@ -1,0 +1,277 @@
+/*
+Descricao: Exercícios da Aula 02 - Introdução básica ao HTML e CSS
+nome_arquivo: index.html
+nome_exercicio: Atividade 02 - Introdução básica ao HTML e CSS
+nome_aluno: Seu Nome Completo
+email_aluno: seu.email@exemplo.com
+turma: Código da Turma
+*/
+
+/*Seletor Universal, zera margens*/
+
+/*Pagina-incio*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+
+}
+
+
+.pagina-inicio body {
+    background-color: aliceblue;
+}
+
+
+.pagina-inicio header {
+    background-color: gainsboro;
+}
+
+
+.pagina-inicio header h1{
+    text-align: center;
+    font-size: 80px;
+    padding: 10px;
+}
+
+
+.pagina-inicio nav {
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.pagina-inicio main {
+    background-color: gray;
+    min-height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: 3px solid;
+}
+
+
+.pagina-inicio main h1{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+
+
+.pagina-inicio main h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.pagina-inicio footer {
+    background-color:darkgray;
+    min-height: 100px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+.conteudo-sinopse{
+    display: flex;
+    text-align: flex-start;
+    gap: 90px;
+    padding: 20px;
+    margin-left: 300px;
+}
+
+
+.conteudo-sinopse p{
+    flex: 1;
+    line-height: 1.6;
+    font-size: 19px;
+    text-align: justify;
+}
+
+
+.conteudo-sinopse img{
+    width: 450px;
+    height: auto;
+}
+
+
+.pagina-inicio main .paragrafo-inferior{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+
+
+/*Pagina-sugestão*/
+
+
+.pagina-sugestao body{
+    background-color: aliceblue;
+}
+
+
+.pagina-sugestao header{
+    background-color: gainsboro;
+}
+
+
+.pagina-sugestao header h1{
+    text-align: center;
+    font-size: 80px;
+    padding: 10px;
+}
+
+
+.pagina-sugestao nav{
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.pagina-sugestao main{
+    background-color: gray;
+    min-height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 3px solid;
+}
+
+.pagina-sugestao main h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 50px;
+  color:red
+}
+
+
+
+.pagina-sugestao h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+
+
+.pagina-sugestao img{
+    margin-left: 50px;
+}
+
+
+.pagina-sugestao p{
+    margin-left: 50px;
+    margin-right: 220px;
+    margin-top: 20px;
+    flex: 1;
+    line-height: 1.6;
+    font-size: 19px;
+    text-align: justify;
+}
+
+
+.pagina-sugestao footer{
+    background-color:darkgray;
+    min-height: 100px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+
+
+/*Pagina Sobre Nós*/
+
+
+
+.pagina-sobre body{
+    background-color: aliceblue;
+}
+
+
+.pagina-sobre header{
+    background-color: gainsboro;
+}
+
+
+.pagina-sobre header h1{
+    text-align: center;
+    font-size: 80px;
+    padding: 10px;
+}
+
+
+.pagina-sobre nav{
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.pagina-sobre main{
+    background-color: gray;
+    min-height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 3px solid;
+}
+
+.pagina-sobre main h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 50px;
+  color:red
+}
+
+
+
+.pagina-sobre h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.pagina-sobre h3{
+    margin-top: 50px;
+}
+
+
+.pagina-sobre h4{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.pagina-sobre li{
+    margin-top: 20px;
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+
+.pagina-sobre footer{
+    background-color:darkgray;
+    min-height: 100px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
